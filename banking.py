@@ -87,15 +87,7 @@ class Bank:
         status = "enabled" if enable else "disabled"
         print(f"The loan feature of the bank has been {status}.")
 
-
-
-
-    
-    
-
 #======================================================================
-
-
 
 # Create user instances
 user1 = User("Maidul","maidul1",123)
@@ -108,8 +100,6 @@ user1.available_balance()
 
 bank = Bank()
 bank.create_account("Maidul", "Maidul", "password")
-
-# Now, you can use the admin methods:
 bank.admin_check_balance()
 bank.admin_check_loan_amount() 
 
